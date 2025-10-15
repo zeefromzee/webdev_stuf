@@ -1,4 +1,4 @@
-<h1 style="color:#ff69b4; font-weight:bold;">Welcome to webdev_stuf ✧･ﾟ*✧･ﾟ*</h1>
+<h1 style="color:#ff69b4; font-weight:bold;">Welcome to My Web~dev Repo <3 ✧･ﾟ*✧･ﾟ*</h1>
 
 Hey there, curious coder!  
 You’ve found webdev_stuf, a sparkly collection of web dev snippets, playful projects, and random experiments. ✨
