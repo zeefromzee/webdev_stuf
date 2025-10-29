@@ -1,0 +1,64 @@
+*{
+    /* background-image: radial-gradient(circle at center, rgb(120, 92, 73), rgb(229, 204, 180)); */
+    /* background-color:#c19a6b; */
+    margin: 0;
+    padding: 0;
+}
+.card-container {
+    display: flex;    
+    gap: 100px;   
+    justify-content: center; 
+    align-items: center; 
+    min-height: 50vh;   
+    background: transparent;
+}
+
+.Card {
+    /* ... existing layout rules ... */
+    
+    /* 1. SOFTEN THE EDGES */
+    margin-top: 75px;
+    border:20px dashed black;
+    border-radius: 15px; /* Increase this value for a softer, pill-like shape */
+    border: none; 
+    font-size: 30px;
+    background: transparent;
+    height:500px;
+    width:400px;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+    /* 2. ADD SUBTLE DEPTH (The #1 Cozy Trick) */
+    box-shadow: 0 8px px rgba(0, 0, 0, 0.05); /* A very light, diffused shadow */
+    
+    /* 3. COZY UP THE BACKGROUND */
+    background-color: #ffffff; /* A soft, blush-toned background */
+    color: #825b3f; /* Muted text color */
+    
+    /* 4. THE HOVER EFFECT (For Cuteness) */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ensure smooth animation */
+
+    /* When the user hovers, lift the card */
+    &:hover {
+        transform: translateY(-3px) scale(1.01);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+header{
+    color: #342727;
+    background: transparent;
+    text-align: center;
+    width:100%;
+    margin-top: 55px;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    background-image: url('./Wallpapersss.png');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    margin: 0;
+}
