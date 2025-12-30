@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #424242;
+    margin-top: 30px;
+}
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 62vmin;
+    height: 62vmin;
+    margin: 0 auto;
+    background-color: #f2f2f2;  
+    border: 3px solid #333;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cell {
+    width: 18vmin;
+    height: 18vmin;
+    background-color: #fff;
+    border: 2px solid #333;
+    display: flex;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.cell:hover {
+    background-color: #e0e0e0;
+}
+.status {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #555;
+}   
+button {
+    border: solid 2px #191919;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    color: #000000;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}   
+#new-game {
+    width: 149px;
+    border: solid 2px #191919;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    color: #000000;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.message{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #333;
+    font-size: 30px;
+}
+.message-container {
+    margin-top: 20px;
+    height: 30px;
+}   
